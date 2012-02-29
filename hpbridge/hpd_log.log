@@ -1,0 +1,21 @@
+#Version: 1.0
+#Date: 2012-01-28
+#Fields: date time x-error-string c-ip cs-method cs-uri-stem cs-uri-query
+2012-01-28 16:11:37 - 192.168.1.171 GET /Weatherstation/1/temperature/0 x=1
+2012-01-28 16:11:37 - 192.168.1.171 GET /Bridge/outside/power_meter/1 x=1
+2012-01-28 16:11:37 - 192.168.1.171 GET /heatpump/2/heat_source/0 x=1
+2012-01-28 16:11:37 - 192.168.1.171 GET /Bridge/outside/light_source/0 x=1
+2012-01-28 16:11:43 - 192.168.1.171 PUT /Bridge/outside/light_source/0 -
+2012-01-28 16:12:02 - 192.168.1.171 PUT /Bridge/outside/light_source/0 -
+2012-01-28 16:12:07 - 192.168.1.171 GET /Weatherstation/1/temperature/0 x=1
+2012-01-28 16:12:07 - 192.168.1.171 GET /Bridge/outside/power_meter/1 x=1
+2012-01-28 16:12:07 - 192.168.1.171 GET /heatpump/2/heat_source/0 x=1
+2012-01-28 16:12:07 - 192.168.1.171 GET /Bridge/outside/light_source/0 x=1
+2012-01-28 16:12:13 - 192.168.1.171 PUT /Bridge/outside/light_source/0 -
+2012-01-28 16:12:32 - 192.168.1.171 PUT /Bridge/outside/light_source/0 -
+1-28 12:04:41 - 192.168.1.243 PUT /Bridge/outside/light_source/0 -
+2012-01-28 12:04:42 - 192.168.1.243 PUT /Bridge/outside/light_source/0 -
+2012-01-28 12:04:50 - 192.168.1.243 PUT /Bridge/outside/light_source/0 -
+wer_meter/1 x=1
+2012-01-28 11:16:35 - 192.168.1.243 GET /Bridge/outside/light_source/0 x=1
+2012-01-28 11:16:41 - 192.168.1.243 PUT /Bridge/outside/light_source/0 -

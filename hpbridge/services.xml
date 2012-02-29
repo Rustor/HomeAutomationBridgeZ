@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><devicelist name="services.xml"
+id="12345" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="http://cs.au.dk/dithus/xml/devicedescription.xsd"><device
+desc="WeatherStation" id="1" vendorID="0x01" productID="0x01"
+version="V1" location="outside" type="Weatherstation"><service
+desc="tempDesc" id="0" value_url="/Weatherstation/1/temperature/0"
+type="temperature" unit="mili Celcius"><parameter id="1" max="50000"
+min="0" scale="mili" step="1" type="temperature" unit="Celcius" /></service></device><device
+desc="HeatPump" id="2" vendorID="0x02" productID="0x02" version="V1"
+location="inside" type="heatpump"><service desc="heatDesc" id="0"
+value_url="/heatpump/2/heat_source/0" type="heat_source" unit="On,Off"><parameter
+id="2" max="5000" min="0" scale="mega" step="1" type="watt" unit="watt" /></service></device><device
+desc="Bridge" id="outside" vendorID="0x03" productID="0x03" version="V1"
+location="outside" type="Bridge"><service desc="light_source" id="0"
+value_url="/Bridge/outside/light_source/0" type="light_source" /><service
+desc="power_meter" id="1" value_url="/Bridge/outside/power_meter/1"
+type="power_meter" /></device></devicelist>
